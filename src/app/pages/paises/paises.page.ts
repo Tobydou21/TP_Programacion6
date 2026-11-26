@@ -10,6 +10,8 @@ import { PaisesService } from '../../services/paises.service';
 })
 export class PaisesPage implements OnInit {
     paises: Pais[] = [];
+    paisesFiltrados: Pais[] = [];
+    terminoBusqueda: string = '';
 
     constructor(private paisesService: PaisesService) { }
 
@@ -23,10 +25,26 @@ export class PaisesPage implements OnInit {
                 this.paises = datos.sort((a, b) =>
                     a.nombre.localeCompare(b.nombre, 'es')
                 );
+                this.paisesFiltrados = [...this.paises];
             },
             error: (err) => {
                 console.error('Error al cargar los países:', err);
             },
         });
+    }
+
+    filtrarPaises(): void {
+        const texto = this.terminoBusqueda.trim().toLowerCase();
+
+        if (!texto) {
+            this.paisesFiltrados = [...this.paises];
+            return;
+        }
+
+        this.paisesFiltrados = this.paises.filter(
+            (pais) =>
+                pais.nombre.toLowerCase().includes(texto) ||
+                pais.capital.toLowerCase().includes(texto)
+        );
     }
 }

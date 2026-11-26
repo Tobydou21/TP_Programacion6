@@ -2,11 +2,15 @@
     <ion-toolbar>
         <ion-title>Países</ion-title>
     </ion-toolbar>
+    <ion-toolbar>
+        <ion-searchbar placeholder="Buscar por país o capital..." [(ngModel)]="terminoBusqueda"
+            (ionInput)="filtrarPaises()"></ion-searchbar>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-list *ngIf="paises.length > 0">
-        <ion-item *ngFor="let pais of paises">
+    <ion-list *ngIf="paisesFiltrados.length > 0">
+        <ion-item *ngFor="let pais of paisesFiltrados">
             <ion-thumbnail slot="start">
                 <img [src]="pais.bandera" [alt]="'Bandera de ' + pais.nombre" />
             </ion-thumbnail>
@@ -16,4 +20,8 @@
             </ion-label>
         </ion-item>
     </ion-list>
+
+    <div class="ion-padding ion-text-center" *ngIf="paises.length > 0 && paisesFiltrados.length === 0">
+        <p>No se encontraron países para "{{ terminoBusqueda }}".</p>
+    </div>
 </ion-content>
