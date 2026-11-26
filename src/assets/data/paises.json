@@ -1,0 +1,420 @@
+[
+  {
+    "codigo": "PRY",
+    "nombre": "Paraguay",
+    "capital": "Asunción",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 406752,
+    "idiomas": [
+      "Guaraní",
+      "Español"
+    ],
+    "moneda": "Guaraní",
+    "bandera": "assets/banderas/pry.png"
+  },
+  {
+    "codigo": "ARG",
+    "nombre": "Argentina",
+    "capital": "Buenos Aires",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 2780400,
+    "idiomas": [
+      "Guaraní",
+      "Español"
+    ],
+    "moneda": "Peso argentino",
+    "bandera": "assets/banderas/arg.png"
+  },
+  {
+    "codigo": "BRA",
+    "nombre": "Brasil",
+    "capital": "Brasilia",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 8515767,
+    "idiomas": [
+      "Portugués"
+    ],
+    "moneda": "Real brasileño",
+    "bandera": "assets/banderas/bra.png"
+  },
+  {
+    "codigo": "BOL",
+    "nombre": "Bolivia",
+    "capital": "Sucre",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 1098581,
+    "idiomas": [
+      "Aymara",
+      "Guaraní",
+      "Quechua",
+      "Español"
+    ],
+    "moneda": "Boliviano",
+    "bandera": "assets/banderas/bol.png"
+  },
+  {
+    "codigo": "URY",
+    "nombre": "Uruguay",
+    "capital": "Montevideo",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 181034,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Peso uruguayo",
+    "bandera": "assets/banderas/ury.png"
+  },
+  {
+    "codigo": "CHL",
+    "nombre": "Chile",
+    "capital": "Santiago",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 756102,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Peso chileno",
+    "bandera": "assets/banderas/chl.png"
+  },
+  {
+    "codigo": "PER",
+    "nombre": "Perú",
+    "capital": "Lima",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 1285216,
+    "idiomas": [
+      "Aymara",
+      "Quechua",
+      "Español"
+    ],
+    "moneda": "Sol peruano",
+    "bandera": "assets/banderas/per.png"
+  },
+  {
+    "codigo": "MEX",
+    "nombre": "México",
+    "capital": "Ciudad de México",
+    "region": "América",
+    "subregion": "América del Norte",
+    "area": 1964375,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Peso mexicano",
+    "bandera": "assets/banderas/mex.png"
+  },
+  {
+    "codigo": "CAN",
+    "nombre": "Canadá",
+    "capital": "Ottawa",
+    "region": "América",
+    "subregion": "América del Norte",
+    "area": 9984670,
+    "idiomas": [
+      "Inglés",
+      "Francés"
+    ],
+    "moneda": "Dólar canadiense",
+    "bandera": "assets/banderas/can.png"
+  },
+  {
+    "codigo": "ESP",
+    "nombre": "España",
+    "capital": "Madrid",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 505992,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/esp.png"
+  },
+  {
+    "codigo": "FRA",
+    "nombre": "Francia",
+    "capital": "Paris",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 551695,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/fra.png"
+  },
+  {
+    "codigo": "DEU",
+    "nombre": "Alemania",
+    "capital": "Berlin",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 357114,
+    "idiomas": [
+      "Alemán"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/deu.png"
+  },
+  {
+    "codigo": "ITA",
+    "nombre": "Italia",
+    "capital": "Rome",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 301336,
+    "idiomas": [
+      "Italiano"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/ita.png"
+  },
+  {
+    "codigo": "PRT",
+    "nombre": "Portugal",
+    "capital": "Lisbon",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 92090,
+    "idiomas": [
+      "Portugués"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/prt.png"
+  },
+  {
+    "codigo": "GBR",
+    "nombre": "Reino Unido",
+    "capital": "Londres",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 242900,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Libra esterlina",
+    "bandera": "assets/banderas/gbr.png"
+  },
+  {
+    "codigo": "NOR",
+    "nombre": "Noruega",
+    "capital": "Oslo",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 323802,
+    "idiomas": [
+      "Norwegian Nynorsk",
+      "Norwegian Bokmål",
+      "Sami"
+    ],
+    "moneda": "Corona noruega",
+    "bandera": "assets/banderas/nor.png"
+  },
+  {
+    "codigo": "JPN",
+    "nombre": "Japón",
+    "capital": "Tokio",
+    "region": "Asia",
+    "subregion": "Asia Oriental",
+    "area": 377930,
+    "idiomas": [
+      "Japonés"
+    ],
+    "moneda": "Yen japonés",
+    "bandera": "assets/banderas/jpn.png"
+  },
+  {
+    "codigo": "KOR",
+    "nombre": "Corea del Sur",
+    "capital": "Seúl",
+    "region": "Asia",
+    "subregion": "Asia Oriental",
+    "area": 100210,
+    "idiomas": [
+      "Coreano"
+    ],
+    "moneda": "Won surcoreano",
+    "bandera": "assets/banderas/kor.png"
+  },
+  {
+    "codigo": "CHN",
+    "nombre": "China",
+    "capital": "Pekín",
+    "region": "Asia",
+    "subregion": "Asia Oriental",
+    "area": 9706961,
+    "idiomas": [
+      "Chino"
+    ],
+    "moneda": "Yuan chino",
+    "bandera": "assets/banderas/chn.png"
+  },
+  {
+    "codigo": "IND",
+    "nombre": "India",
+    "capital": "Nueva Delhi",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 3287590,
+    "idiomas": [
+      "Inglés",
+      "Hindi",
+      "Tamil"
+    ],
+    "moneda": "Rupia india",
+    "bandera": "assets/banderas/ind.png"
+  },
+  {
+    "codigo": "THA",
+    "nombre": "Tailandia",
+    "capital": "Bangkok",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 513120,
+    "idiomas": [
+      "Tailandés"
+    ],
+    "moneda": "Baht tailandés",
+    "bandera": "assets/banderas/tha.png"
+  },
+  {
+    "codigo": "ARE",
+    "nombre": "Emiratos Árabes Unidos",
+    "capital": "Abu Dabi",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 83600,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Dírham de los EAU",
+    "bandera": "assets/banderas/are.png"
+  },
+  {
+    "codigo": "EGY",
+    "nombre": "Egipto",
+    "capital": "El Cairo",
+    "region": "África",
+    "subregion": "África del Norte",
+    "area": 1002450,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Libra egipcia",
+    "bandera": "assets/banderas/egy.png"
+  },
+  {
+    "codigo": "MAR",
+    "nombre": "Marruecos",
+    "capital": "Rabat",
+    "region": "África",
+    "subregion": "África del Norte",
+    "area": 446550,
+    "idiomas": [
+      "Árabe",
+      "Bereber"
+    ],
+    "moneda": "Dírham marroquí",
+    "bandera": "assets/banderas/mar.png"
+  },
+  {
+    "codigo": "NGA",
+    "nombre": "Nigeria",
+    "capital": "Abuya",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 923768,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Naira nigeriana",
+    "bandera": "assets/banderas/nga.png"
+  },
+  {
+    "codigo": "KEN",
+    "nombre": "Kenia",
+    "capital": "Nairobi",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 580367,
+    "idiomas": [
+      "Inglés",
+      "Suajili"
+    ],
+    "moneda": "Chelín keniano",
+    "bandera": "assets/banderas/ken.png"
+  },
+  {
+    "codigo": "ZAF",
+    "nombre": "Sudáfrica",
+    "capital": "Pretoria",
+    "region": "África",
+    "subregion": "África Austral",
+    "area": 1221037,
+    "idiomas": [
+      "Afrikáans",
+      "Inglés",
+      "Southern Ndebele",
+      "Northern Sotho",
+      "Southern Sotho",
+      "Swazi",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zulú"
+    ],
+    "moneda": "Rand sudafricano",
+    "bandera": "assets/banderas/zaf.png"
+  },
+  {
+    "codigo": "AUS",
+    "nombre": "Australia",
+    "capital": "Canberra",
+    "region": "Oceanía",
+    "subregion": "Australia y Nueva Zelanda",
+    "area": 7692024,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar australiano",
+    "bandera": "assets/banderas/aus.png"
+  },
+  {
+    "codigo": "NZL",
+    "nombre": "Nueva Zelanda",
+    "capital": "Wellington",
+    "region": "Oceanía",
+    "subregion": "Australia y Nueva Zelanda",
+    "area": 270467,
+    "idiomas": [
+      "Inglés",
+      "Māori",
+      "New Zealand Sign Language"
+    ],
+    "moneda": "Dólar neozelandés",
+    "bandera": "assets/banderas/nzl.png"
+  },
+  {
+    "codigo": "FJI",
+    "nombre": "Fiyi",
+    "capital": "Suva",
+    "region": "Oceanía",
+    "subregion": "Melanesia",
+    "area": 18272,
+    "idiomas": [
+      "Inglés",
+      "Fiyiano",
+      "Hindi de Fiyi"
+    ],
+    "moneda": "Dólar fiyiano",
+    "bandera": "assets/banderas/fji.png"
+  }
+]
