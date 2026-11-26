@@ -8,32 +8,35 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        path: 'paises',
+        loadChildren: () =>
+          import('../pages/paises/paises.module').then((m) => m.PaisesPageModule),
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'regiones',
+        loadChildren: () =>
+          import('../pages/regiones/regiones.module').then((m) => m.RegionesPageModule),
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'comparar',
+        loadChildren: () =>
+          import('../pages/comparar/comparar.module').then((m) => m.CompararPageModule),
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
-        pathMatch: 'full'
-      }
-    ]
+        redirectTo: '/tabs/paises',
+        pathMatch: 'full',
+      },
+    ],
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
-    pathMatch: 'full'
-  }
+    redirectTo: '/tabs/paises',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
 })
-export class TabsPageRoutingModule {}
+export class TabsPageRoutingModule { }

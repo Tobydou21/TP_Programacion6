@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { addIcons } from 'ionicons';
+import { earthOutline, gitCompareOutline, mapOutline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-tabs',
@@ -7,7 +9,11 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class TabsPage {
-
-  constructor() {}
-
+  constructor() {
+    addIcons({
+      earthOutline,
+      mapOutline,
+      gitCompareOutline,
+    });
+  }
 }
