@@ -1,0 +1,49 @@
+{
+  "name": "explorador-de-paises",
+  "version": "0.0.1",
+  "author": "Tobias Ramirez",
+  "homepage": "https://ionicframework.com/",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "~21.2.0",
+    "@angular/compiler": "~21.2.0",
+    "@angular/core": "~21.2.0",
+    "@angular/forms": "~21.2.0",
+    "@angular/platform-browser": "~21.2.0",
+    "@angular/platform-browser-dynamic": "~21.2.0",
+    "@angular/router": "~21.2.0",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/core": "8.6.3",
+    "@capacitor/haptics": "8.0.2",
+    "@capacitor/keyboard": "8.0.6",
+    "@capacitor/status-bar": "8.0.4",
+    "@ionic/angular": "^9.0.0",
+    "ionicons": "^8.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular/build": "~21.2.0",
+    "@angular/cli": "~21.2.0",
+    "@angular/compiler-cli": "~21.2.0",
+    "@angular/language-service": "~21.2.0",
+    "@capacitor/cli": "8.6.3",
+    "@ionic/angular-toolkit": "^13.0.0",
+    "angular-eslint": "^21.0.0",
+    "eslint": "^9.39.0",
+    "jsdom": "^31.0.0",
+    "typescript": "~5.9.0",
+    "typescript-eslint": "^8.61.0",
+    "vitest": "^4.0.8"
+  },
+  "description": "Aplicación móvil Explorador de países con Ionic 9 y Angular 21"
+}
