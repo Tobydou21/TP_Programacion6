@@ -4,6 +4,16 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding">
-    <p>Lista de países (en construcción)</p>
+<ion-content>
+    <ion-list *ngIf="paises.length > 0">
+        <ion-item *ngFor="let pais of paises">
+            <ion-thumbnail slot="start">
+                <img [src]="pais.bandera" [alt]="'Bandera de ' + pais.nombre" />
+            </ion-thumbnail>
+            <ion-label>
+                <h2>{{ pais.nombre }}</h2>
+                <p>{{ pais.capital }}</p>
+            </ion-label>
+        </ion-item>
+    </ion-list>
 </ion-content>
