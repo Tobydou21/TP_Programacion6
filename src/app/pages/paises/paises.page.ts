@@ -13,6 +13,8 @@ export class PaisesPage implements OnInit {
     paises: Pais[] = [];
     paisesFiltrados: Pais[] = [];
     terminoBusqueda: string = '';
+    cargando = true;
+    error = false;
 
     constructor(
         private paisesService: PaisesService,
@@ -24,21 +26,25 @@ export class PaisesPage implements OnInit {
     }
 
     cargarPaises(): void {
+        this.cargando = true;
+        this.error = false;
         this.paisesService.obtenerPaises().subscribe({
             next: (datos: Pais[]) => {
                 this.paises = datos.sort((a, b) =>
                     a.nombre.localeCompare(b.nombre, 'es')
                 );
-                this.paisesFiltrados = [...this.paises];
+                this.filtrarPaises();
+                this.cargando = false;
             },
-            error: (err) => {
-                console.error('Error al cargar los países:', err);
+            error: () => {
+                this.error = true;
+                this.cargando = false;
             },
         });
     }
 
     filtrarPaises(): void {
-        const texto = this.terminoBusqueda.trim().toLowerCase();
+        const texto = this.normalizar(this.terminoBusqueda.trim());
 
         if (!texto) {
             this.paisesFiltrados = [...this.paises];
@@ -47,12 +53,19 @@ export class PaisesPage implements OnInit {
 
         this.paisesFiltrados = this.paises.filter(
             (pais) =>
-                pais.nombre.toLowerCase().includes(texto) ||
-                pais.capital.toLowerCase().includes(texto)
+                this.normalizar(pais.nombre).includes(texto) ||
+                this.normalizar(pais.capital).includes(texto)
         );
     }
 
     verDetalle(pais: Pais): void {
         this.router.navigate(['/detalle-pais', pais.codigo]);
+    }
+
+    private normalizar(texto: string): string {
+        return texto
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase();
     }
 }

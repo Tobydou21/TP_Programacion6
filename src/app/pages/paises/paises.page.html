@@ -9,7 +9,16 @@
 </ion-header>
 
 <ion-content>
-    <ion-list *ngIf="paisesFiltrados.length > 0">
+    <div class="ion-text-center ion-padding" *ngIf="cargando">
+        <ion-spinner></ion-spinner>
+    </div>
+
+    <div class="ion-text-center ion-padding" *ngIf="error">
+        <p>No se pudieron cargar los países.</p>
+        <ion-button (click)="cargarPaises()">Reintentar</ion-button>
+    </div>
+
+    <ion-list *ngIf="!cargando && !error && paisesFiltrados.length > 0">
         <ion-item button *ngFor="let pais of paisesFiltrados" (click)="verDetalle(pais)">
             <ion-thumbnail slot="start">
                 <img [src]="pais.bandera" [alt]="'Bandera de ' + pais.nombre" />
@@ -21,7 +30,8 @@
         </ion-item>
     </ion-list>
 
-    <div class="ion-padding ion-text-center" *ngIf="paises.length > 0 && paisesFiltrados.length === 0">
+    <div class="ion-padding ion-text-center"
+        *ngIf="!cargando && !error && paises.length > 0 && paisesFiltrados.length === 0">
         <p>No se encontraron países para "{{ terminoBusqueda }}".</p>
     </div>
 </ion-content>

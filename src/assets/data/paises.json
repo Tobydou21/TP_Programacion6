@@ -21,8 +21,8 @@
     "subregion": "América del Sur",
     "area": 2780400,
     "idiomas": [
-      "Guaraní",
-      "Español"
+      "Español",
+      "Guaraní"
     ],
     "moneda": "Peso argentino",
     "bandera": "assets/banderas/arg.png"
@@ -140,7 +140,7 @@
   {
     "codigo": "FRA",
     "nombre": "Francia",
-    "capital": "Paris",
+    "capital": "París",
     "region": "Europa",
     "subregion": "Europa Occidental",
     "area": 551695,
@@ -153,7 +153,7 @@
   {
     "codigo": "DEU",
     "nombre": "Alemania",
-    "capital": "Berlin",
+    "capital": "Berlín",
     "region": "Europa",
     "subregion": "Europa Occidental",
     "area": 357114,
@@ -166,7 +166,7 @@
   {
     "codigo": "ITA",
     "nombre": "Italia",
-    "capital": "Rome",
+    "capital": "Roma",
     "region": "Europa",
     "subregion": "Europa del Sur",
     "area": 301336,
@@ -179,7 +179,7 @@
   {
     "codigo": "PRT",
     "nombre": "Portugal",
-    "capital": "Lisbon",
+    "capital": "Lisboa",
     "region": "Europa",
     "subregion": "Europa del Sur",
     "area": 92090,
@@ -210,8 +210,8 @@
     "subregion": "Europa del Norte",
     "area": 323802,
     "idiomas": [
-      "Norwegian Nynorsk",
-      "Norwegian Bokmål",
+      "Noruego nynorsk",
+      "Noruego bokmål",
       "Sami"
     ],
     "moneda": "Corona noruega",
@@ -361,11 +361,11 @@
     "idiomas": [
       "Afrikáans",
       "Inglés",
-      "Southern Ndebele",
-      "Northern Sotho",
-      "Southern Sotho",
-      "Swazi",
-      "Tswana",
+      "Ndebele del sur",
+      "Sotho del norte",
+      "Sotho del sur",
+      "Suazi",
+      "Setsuana",
       "Tsonga",
       "Venda",
       "Xhosa",
@@ -396,8 +396,8 @@
     "area": 270467,
     "idiomas": [
       "Inglés",
-      "Māori",
-      "New Zealand Sign Language"
+      "Maorí",
+      "Lengua de señas de Nueva Zelanda"
     ],
     "moneda": "Dólar neozelandés",
     "bandera": "assets/banderas/nzl.png"
