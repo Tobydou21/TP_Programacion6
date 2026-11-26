@@ -5,5 +5,122 @@
 </ion-header>
 
 <ion-content class="ion-padding">
-    <p>Comparación de países (en construcción)</p>
+    <div class="ion-text-center ion-padding" *ngIf="cargando">
+        <ion-spinner></ion-spinner>
+    </div>
+
+    <div class="ion-text-center ion-padding" *ngIf="error">
+        <p>No se pudieron cargar los países para comparar.</p>
+        <ion-button (click)="cargarPaises()">Reintentar</ion-button>
+    </div>
+
+    <div *ngIf="!cargando && !error && paises.length > 0">
+        <ion-list>
+            <ion-item>
+                <ion-select label="Primer país" labelPlacement="stacked" [(ngModel)]="codigoPais1"
+                    (ionChange)="actualizarComparacion()">
+                    <ion-select-option *ngFor="let p of paises" [value]="p.codigo">
+                        {{ p.nombre }}
+                    </ion-select-option>
+                </ion-select>
+            </ion-item>
+
+            <ion-item>
+                <ion-select label="Segundo país" labelPlacement="stacked" [(ngModel)]="codigoPais2"
+                    (ionChange)="actualizarComparacion()">
+                    <ion-select-option *ngFor="let p of paises" [value]="p.codigo">
+                        {{ p.nombre }}
+                    </ion-select-option>
+                </ion-select>
+            </ion-item>
+        </ion-list>
+
+        <div class="ion-text-center ion-margin-top">
+            <ion-button fill="outline" size="small" (click)="intercambiar()">
+                <ion-icon slot="start" name="swap-horizontal-outline"></ion-icon>
+                Intercambiar países
+            </ion-button>
+        </div>
+
+        <ion-card *ngIf="pais1 && pais2">
+            <ion-card-header>
+                <ion-card-title class="ion-text-center">
+                    {{ pais1.nombre }} vs. {{ pais2.nombre }}
+                </ion-card-title>
+            </ion-card-header>
+
+            <ion-card-content>
+                <ion-grid>
+                    <ion-row class="ion-align-items-center ion-text-center fila-banderas">
+                        <ion-col size="6">
+                            <img [src]="pais1.bandera" [alt]="'Bandera de ' + pais1.nombre" />
+                            <h3>{{ pais1.nombre }}</h3>
+                            <p>{{ pais1.codigo }}</p>
+                        </ion-col>
+                        <ion-col size="6">
+                            <img [src]="pais2.bandera" [alt]="'Bandera de ' + pais2.nombre" />
+                            <h3>{{ pais2.nombre }}</h3>
+                            <p>{{ pais2.codigo }}</p>
+                        </ion-col>
+                    </ion-row>
+
+                    <ion-row class="fila-dato">
+                        <ion-col size="12" class="etiqueta">Capital</ion-col>
+                        <ion-col size="6">{{ pais1.capital }}</ion-col>
+                        <ion-col size="6">{{ pais2.capital }}</ion-col>
+                    </ion-row>
+
+                    <ion-row class="fila-dato">
+                        <ion-col size="12" class="etiqueta">Región</ion-col>
+                        <ion-col size="6">{{ pais1.region }}</ion-col>
+                        <ion-col size="6">{{ pais2.region }}</ion-col>
+                    </ion-row>
+
+                    <ion-row class="fila-dato">
+                        <ion-col size="12" class="etiqueta">Subregión</ion-col>
+                        <ion-col size="6">{{ pais1.subregion }}</ion-col>
+                        <ion-col size="6">{{ pais2.subregion }}</ion-col>
+                    </ion-row>
+
+                    <ion-row class="fila-dato">
+                        <ion-col size="12" class="etiqueta">Área (km²)</ion-col>
+                        <ion-col size="6" [class.mayor]="pais1.area > pais2.area">
+                            {{ pais1.area | number }} km²
+                        </ion-col>
+                        <ion-col size="6" [class.mayor]="pais2.area > pais1.area">
+                            {{ pais2.area | number }} km²
+                        </ion-col>
+                    </ion-row>
+
+                    <ion-row class="fila-dato">
+                        <ion-col size="12" class="etiqueta">Idiomas</ion-col>
+                        <ion-col size="6">{{ pais1.idiomas.join(', ') }}</ion-col>
+                        <ion-col size="6">{{ pais2.idiomas.join(', ') }}</ion-col>
+                    </ion-row>
+
+                    <ion-row class="fila-dato">
+                        <ion-col size="12" class="etiqueta">Moneda</ion-col>
+                        <ion-col size="6">{{ pais1.moneda }}</ion-col>
+                        <ion-col size="6">{{ pais2.moneda }}</ion-col>
+                    </ion-row>
+                </ion-grid>
+
+                <div class="resumen-area ion-text-center ion-margin-top">
+                    <p *ngIf="pais1.area > pais2.area">
+                        <strong>{{ pais1.nombre }}</strong> tiene
+                        <strong>{{ obtenerDiferenciaArea() | number }} km²</strong> más de
+                        superficie que {{ pais2.nombre }}.
+                    </p>
+                    <p *ngIf="pais2.area > pais1.area">
+                        <strong>{{ pais2.nombre }}</strong> tiene
+                        <strong>{{ obtenerDiferenciaArea() | number }} km²</strong> más de
+                        superficie que {{ pais1.nombre }}.
+                    </p>
+                    <p *ngIf="pais1.area === pais2.area">
+                        Ambos países tienen exactamente la misma superficie.
+                    </p>
+                </div>
+            </ion-card-content>
+        </ion-card>
+    </div>
 </ion-content>

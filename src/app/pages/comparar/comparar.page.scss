@@ -1,0 +1,47 @@
+.fila-banderas {
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--ion-color-light-shade);
+
+    img {
+        width: 96px;
+        height: 64px;
+        object-fit: contain;
+        border-radius: 4px;
+    }
+
+    h3 {
+        margin: 8px 0 2px;
+        font-weight: 600;
+    }
+
+    p {
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--ion-color-medium);
+    }
+}
+
+.fila-dato {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--ion-color-light-shade);
+    text-align: center;
+
+    .etiqueta {
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--ion-color-medium);
+        padding-bottom: 4px;
+    }
+}
+
+.mayor {
+    font-weight: 700;
+    color: var(--ion-color-primary);
+}
+
+.resumen-area {
+    padding: 10px;
+    border-radius: 8px;
+    background: var(--ion-color-light);
+}
