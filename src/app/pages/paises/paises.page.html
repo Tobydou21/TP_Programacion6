@@ -10,7 +10,7 @@
 
 <ion-content>
     <ion-list *ngIf="paisesFiltrados.length > 0">
-        <ion-item *ngFor="let pais of paisesFiltrados">
+        <ion-item button *ngFor="let pais of paisesFiltrados" (click)="verDetalle(pais)">
             <ion-thumbnail slot="start">
                 <img [src]="pais.bandera" [alt]="'Bandera de ' + pais.nombre" />
             </ion-thumbnail>

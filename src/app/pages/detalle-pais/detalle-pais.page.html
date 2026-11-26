@@ -1,0 +1,71 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/tabs/paises"></ion-back-button>
+        </ion-buttons>
+        <ion-title>{{ pais ? pais.nombre : 'Detalle del país' }}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-card *ngIf="pais">
+        <div class="bandera-contenedor">
+            <img [src]="pais.bandera" [alt]="'Bandera de ' + pais.nombre" />
+        </div>
+
+        <ion-card-header>
+            <ion-card-subtitle>{{ pais.codigo }} · {{ pais.region }}</ion-card-subtitle>
+            <ion-card-title>{{ pais.nombre }}</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-list lines="full">
+                <ion-item>
+                    <ion-label>
+                        <h3>Capital</h3>
+                        <p>{{ pais.capital }}</p>
+                    </ion-label>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label>
+                        <h3>Región</h3>
+                        <p>{{ pais.region }}</p>
+                    </ion-label>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label>
+                        <h3>Subregión</h3>
+                        <p>{{ pais.subregion }}</p>
+                    </ion-label>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label>
+                        <h3>Área</h3>
+                        <p>{{ pais.area | number }} km²</p>
+                    </ion-label>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label>
+                        <h3>Idiomas</h3>
+                        <p>{{ pais.idiomas.join(', ') }}</p>
+                    </ion-label>
+                </ion-item>
+
+                <ion-item lines="none">
+                    <ion-label>
+                        <h3>Moneda</h3>
+                        <p>{{ pais.moneda }}</p>
+                    </ion-label>
+                </ion-item>
+            </ion-list>
+        </ion-card-content>
+    </ion-card>
+
+    <div class="ion-text-center ion-padding" *ngIf="!cargando && !pais">
+        <p>No se encontró información para el país solicitado.</p>
+    </div>
+</ion-content>

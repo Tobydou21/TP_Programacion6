@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Pais } from '../../models/pais.model';
 import { PaisesService } from '../../services/paises.service';
 
@@ -13,7 +14,10 @@ export class PaisesPage implements OnInit {
     paisesFiltrados: Pais[] = [];
     terminoBusqueda: string = '';
 
-    constructor(private paisesService: PaisesService) { }
+    constructor(
+        private paisesService: PaisesService,
+        private router: Router
+    ) { }
 
     ngOnInit(): void {
         this.cargarPaises();
@@ -46,5 +50,9 @@ export class PaisesPage implements OnInit {
                 pais.nombre.toLowerCase().includes(texto) ||
                 pais.capital.toLowerCase().includes(texto)
         );
+    }
+
+    verDetalle(pais: Pais): void {
+        this.router.navigate(['/detalle-pais', pais.codigo]);
     }
 }
