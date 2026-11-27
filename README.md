@@ -57,6 +57,11 @@ Los datos y banderas locales se generaron a partir del repositorio abierto **[ml
 | `PaisesService` | `src/app/services/` | Servicio centralizado de datos (HttpClient + JSON local) |
 | `Pais` (interfaz) | `src/app/models/` | Modelo tipado de país |
 
+## Componentes de Ionic usados
+`ion-searchbar`, `ion-list`, `ion-item`, `ion-thumbnail`, `ion-label`, `ion-segment`,
+`ion-segment-button`, `ion-select`, `ion-select-option`, `ion-card`, `ion-grid`,
+`ion-spinner`, `ion-button`, `ion-back-button`, `ion-icon`
+
 ---
 
 ## Instalación y ejecución
@@ -103,4 +108,3 @@ Para generar nuevas capturas: **F12** → vista de celular → **Ctrl + Shift + 
 
 Las capturas de pantalla de la aplicación se encuentran en la carpeta `screenshots/`.
 
-Para generar nuevas capturas: **F12** → vista de celular → **Ctrl + Shift + P** → *Capture screenshot*.

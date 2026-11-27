@@ -53,21 +53,11 @@ export class RegionesPage implements OnInit {
     cambiarRegion(event: Event): void {
         const customEvent = event as CustomEvent<{ value?: string }>;
         const nuevaRegion = customEvent.detail?.value;
-        if (!nuevaRegion || nuevaRegion === this.regionSeleccionada) {
+        if (!nuevaRegion) {
             return;
         }
-
-        this.ngZone.run(() => {
-            this.regionSeleccionada = nuevaRegion;
-            this.filtrarPorRegion();
-            this.cdr.markForCheck();
-            this.cdr.detectChanges();
-            // Forzar un segundo ciclo de detección para el encabezado
-            setTimeout(() => {
-                this.cdr.markForCheck();
-                this.cdr.detectChanges();
-            });
-        });
+        this.regionSeleccionada = nuevaRegion;
+        this.filtrarPorRegion();
     }
 
     filtrarPorRegion(): void {
