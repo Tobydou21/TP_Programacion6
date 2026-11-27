@@ -12,6 +12,7 @@ import { PaisesService } from '../../services/paises.service';
 export class DetallePaisPage implements OnInit {
     pais?: Pais;
     cargando: boolean = true;
+    error = false;
 
     constructor(
         private route: ActivatedRoute,
@@ -19,21 +20,22 @@ export class DetallePaisPage implements OnInit {
     ) { }
 
     ngOnInit(): void {
-        const codigo = this.route.snapshot.paramMap.get('codigo');
+        this.cargarPais();
+    }
 
-        if (codigo) {
-            this.paisesService.obtenerPaisPorCodigo(codigo).subscribe({
-                next: (encontrado) => {
-                    this.pais = encontrado;
-                    this.cargando = false;
-                },
-                error: (err) => {
-                    console.error('Error al obtener el detalle del país:', err);
-                    this.cargando = false;
-                },
-            });
-        } else {
-            this.cargando = false;
-        }
+    cargarPais(): void {
+        const codigo = this.route.snapshot.paramMap.get('codigo') ?? '';
+        this.cargando = true;
+        this.error = false;
+        this.paisesService.obtenerPaisPorCodigo(codigo).subscribe({
+            next: (encontrado) => {
+                this.pais = encontrado;
+                this.cargando = false;
+            },
+            error: () => {
+                this.error = true;
+                this.cargando = false;
+            },
+        });
     }
 }

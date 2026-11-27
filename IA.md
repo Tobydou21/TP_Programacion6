@@ -33,7 +33,7 @@
 
 ### Prompts principales
 * Creación de la interfaz tipada `Pais` sin utilizar `any`.
-* Generación de `src/assets/data/paises.json` con 30 países reales de las 5 regiones y sus banderas locales en `src/assets/banderas/`.
+* Generación de `src/assets/data/paises.json` con 30 países reales (posteriormente ampliado a 194) de las 5 regiones y sus banderas locales en `src/assets/banderas/`.
 * Configuración de `environments` y creación de `PaisesService` con `HttpClient`.
 
 ### Partes generadas con ayuda de IA
@@ -88,3 +88,26 @@
 
 ### Problemas encontrados y cómo se resolvieron
 * **Selección duplicada en Comparar:** Si el usuario elegía el mismo país en ambos selectores, se mostraba una comparación redundante; se añadió una validación con `*ngIf` para mostrar un aviso claro hasta que elija dos países distintos.   
+
+
+---
+
+## Etapa 6: Expansión a 194 países y correcciones finales
+
+### Prompts principales
+* Ampliación del dataset de 30 a 194 países reales utilizando el repositorio `mledoze/countries`, con nombres, capitales, regiones, idiomas y monedas traducidos al español.
+* Descarga automatizada de 194 banderas en formato PNG desde `flagcdn.com` a `src/assets/banderas/`.
+* Corrección del encabezado de región en `RegionesPage` que no se actualizaba al cambiar de continente (problema de `ion-segment` con lazy proxy y `OnPush`).
+* Correcciones de calidad: validación de mismo país en Comparar, spinner/error/reintento en Detalle, `object-fit: contain` en banderas de Países, y corrección de datos erróneos (Zimbabue, Ciudad del Vaticano, Eslovenia, Guinea-Bisáu).
+
+### Partes generadas con ayuda de IA
+* Script Node.js (`build_paises.mjs`) para extraer, traducir y generar `paises.json` con 194 países desde `mledoze/countries`.
+* Script Node.js (`download_flags.mjs`) para descargar y validar las 194 banderas PNG.
+* Fix de `RegionesPage` usando `NgZone.run()`, `ChangeDetectorRef.markForCheck()` y `detectChanges()` para forzar la actualización del encabezado.
+* Validación `codigoPais1 !== codigoPais2` en `comparar.page.html` con mensaje "Elegí dos países diferentes."
+* Refactor de `DetallePaisPage` con método `cargarPais()`, propiedad `error`, spinner de carga y botón de reintento.
+* Reescritura completa de `README.md` con secciones de instalación, componentes y capturas.
+
+### Problemas encontrados y cómo se resolvieron
+* **Encabezado "América" congelado en Regiones:** El lazy proxy de `ion-segment` de Ionic 9 usa `ChangeDetectionStrategy.OnPush` internamente y dispara `ionChange` fuera de la zona de Angular. Se resolvió con `NgZone.run()` + `ChangeDetectorRef.markForCheck()` + `detectChanges()` y un `setTimeout` para un segundo ciclo de detección.
+* **Datos incorrectos en `paises.json`:** La moneda de Zimbabue aparecía como "Pula botsuano" (moneda de Botsuana); se corrigió a "ZiG (oro de Zimbabue)". El área de Ciudad del Vaticano era 0 en vez de 0.44 km². Las capitales de Eslovenia y Guinea-Bisáu no estaban en español.

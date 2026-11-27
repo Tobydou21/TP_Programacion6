@@ -1127,7 +1127,7 @@
   {
     "codigo": "GNB",
     "nombre": "Guinea-Bisáu",
-    "capital": "Bissau",
+    "capital": "Bisáu",
     "region": "África",
     "subregion": "África Occidental",
     "area": 36125,
@@ -2251,7 +2251,7 @@
   {
     "codigo": "SVN",
     "nombre": "Eslovenia",
-    "capital": "Ljubljana",
+    "capital": "Liubliana",
     "region": "Europa",
     "subregion": "Europa Central",
     "area": 20273,
@@ -2526,7 +2526,7 @@
     "capital": "Ciudad del Vaticano",
     "region": "Europa",
     "subregion": "Europa del Sur",
-    "area": 0,
+    "area": 0.44,
     "idiomas": [
       "Italiano",
       "Latín"
@@ -2652,7 +2652,7 @@
       "Xhosa",
       "Lengua de señas de Zimbabue"
     ],
-    "moneda": "Pula botsuano",
+    "moneda": "ZiG (oro de Zimbabue)",
     "bandera": "assets/banderas/zwe.png"
   }
 ]

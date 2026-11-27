@@ -8,6 +8,14 @@
 </ion-header>
 
 <ion-content class="ion-padding">
+    <div class="ion-text-center" *ngIf="cargando">
+        <ion-spinner></ion-spinner>
+    </div>
+    <div class="ion-text-center" *ngIf="error">
+        <p>No se pudo cargar el país.</p>
+        <ion-button (click)="cargarPais()">Reintentar</ion-button>
+    </div>
+
     <ion-card *ngIf="pais">
         <div class="bandera-contenedor">
             <img [src]="pais.bandera" [alt]="'Bandera de ' + pais.nombre" />
@@ -65,7 +73,7 @@
         </ion-card-content>
     </ion-card>
 
-    <div class="ion-text-center ion-padding" *ngIf="!cargando && !pais">
+    <div class="ion-text-center ion-padding" *ngIf="!cargando && !error && !pais">
         <p>No se encontró información para el país solicitado.</p>
     </div>
 </ion-content>

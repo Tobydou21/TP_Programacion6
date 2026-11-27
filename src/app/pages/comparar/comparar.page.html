@@ -42,7 +42,9 @@
             </ion-button>
         </div>
 
-        <ion-card *ngIf="pais1 && pais2">
+        <p class="ion-text-center" *ngIf="codigoPais1 === codigoPais2">Elegí dos países diferentes.</p>
+
+        <ion-card *ngIf="pais1 && pais2 && codigoPais1 !== codigoPais2">
             <ion-card-header>
                 <ion-card-title class="ion-text-center">
                     {{ pais1.nombre }} vs. {{ pais2.nombre }}
