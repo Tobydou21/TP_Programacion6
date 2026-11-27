@@ -29,12 +29,10 @@ Aplicación móvil híbrida desarrollada con **Ionic 9** y **Angular 21** para e
 
 ## Fuente de datos
 
-Los datos y banderas locales se generaron a partir del repositorio abierto **[mledoze/countries](https://github.com/mledoze/countries)** y se almacenan localmente en el proyecto para funcionar sin conexión a internet:
+Los datos se generaron a partir del repositorio abierto **[mledoze/countries](https://github.com/mledoze/countries)**. Los datos y las banderas se guardan dentro del proyecto, así que la app no consulta servicios externos para cargarlos.
 
+* **Datos estructurados:** `src/assets/data/paises.json` (194 países de América, Europa, Asia, África y Oceanía).
 * **Banderas:** `src/assets/banderas/*.png` (194 imágenes descargadas de [flagcdn.com](https://flagcdn.com)).
-
-* **Datos estructurados:** `src/assets/data/paises.json` (194 países reales de América, Europa, Asia, África y Oceanía).
-* **Banderas:** `src/assets/banderas/*.png` (194 imágenes locales en formato PNG).
 
 ---
 
@@ -74,7 +72,7 @@ Los datos y banderas locales se generaron a partir del repositorio abierto **[ml
    cd TP_Programacion6
    ```
 
-2. Instalar las dependencias:
+2. Instalar las dependencias (requiere Node.js 20.19+, 22.12+ o 24, e Ionic CLI):
    ```bash
    npm install
    ```
@@ -85,28 +83,6 @@ Los datos y banderas locales se generaron a partir del repositorio abierto **[ml
    ```
 
 ---
-
-## Capturas de pantalla
-
-Las capturas de pantalla de la aplicación se encuentran en la carpeta `screenshots/`.
-
-Para generar nuevas capturas: **F12** → vista de celular → **Ctrl + Shift + P** → *Capture screenshot*.
-
-   ```
-
-2. Instalar las dependencias:
-   ```bash
-   npm install
-   ```
-
-3. Iniciar el servidor de desarrollo:
-   ```bash
-   ionic serve
-   ```
-
----
-
-## Capturas de pantalla
 
 ## Capturas de pantalla
 

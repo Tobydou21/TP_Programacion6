@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, NgZone, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Pais } from '../../models/pais.model';
 import { PaisesService } from '../../services/paises.service';
 
@@ -16,11 +16,7 @@ export class RegionesPage implements OnInit {
     cargando = true;
     error = false;
 
-    constructor(
-        private paisesService: PaisesService,
-        private ngZone: NgZone,
-        private cdr: ChangeDetectorRef
-    ) { }
+    constructor(private paisesService: PaisesService) { }
 
     ngOnInit(): void {
         this.cargarPaises();
@@ -31,21 +27,15 @@ export class RegionesPage implements OnInit {
         this.error = false;
         this.paisesService.obtenerPaises().subscribe({
             next: (datos: Pais[]) => {
-                this.ngZone.run(() => {
-                    this.paises = datos.sort((a, b) =>
-                        a.nombre.localeCompare(b.nombre, 'es')
-                    );
-                    this.filtrarPorRegion();
-                    this.cargando = false;
-                    this.cdr.detectChanges();
-                });
+                this.paises = datos.sort((a, b) =>
+                    a.nombre.localeCompare(b.nombre, 'es')
+                );
+                this.filtrarPorRegion();
+                this.cargando = false;
             },
             error: () => {
-                this.ngZone.run(() => {
-                    this.error = true;
-                    this.cargando = false;
-                    this.cdr.detectChanges();
-                });
+                this.error = true;
+                this.cargando = false;
             },
         });
     }

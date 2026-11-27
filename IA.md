@@ -97,18 +97,17 @@
 ### Prompts principales
 * Ampliación del dataset de 30 a 194 países reales utilizando el repositorio `mledoze/countries`, con nombres, capitales, regiones, idiomas y monedas traducidos al español.
 * Descarga automatizada de 194 banderas en formato PNG desde `flagcdn.com` a `src/assets/banderas/`.
-* Corrección del encabezado de región en `RegionesPage` que no se actualizaba al cambiar de continente (problema de `ion-segment` con lazy proxy y `OnPush`).
+* Corrección del encabezado de región en `RegionesPage`, que no se actualizaba al cambiar de continente.
 * Correcciones de calidad: validación de mismo país en Comparar, spinner/error/reintento en Detalle, `object-fit: contain` en banderas de Países, y corrección de datos erróneos (Zimbabue, Ciudad del Vaticano, Eslovenia, Guinea-Bisáu).
- * **Encabezado de región que no se actualizaba:** se probó una solución con `NgZone` y `ChangeDetectorRef`; después se simplificó, leyendo el valor del evento `ionChange`, y se quitó lo que no hacía falta.
-* **Capturas:** generadas con ayuda de Claude.
 ### Partes generadas con ayuda de IA
 * Script Node.js (`build_paises.mjs`) para extraer, traducir y generar `paises.json` con 194 países desde `mledoze/countries`.
 * Script Node.js (`download_flags.mjs`) para descargar y validar las 194 banderas PNG.
-* Fix de `RegionesPage` usando `NgZone.run()`, `ChangeDetectorRef.markForCheck()` y `detectChanges()` para forzar la actualización del encabezado.
 * Validación `codigoPais1 !== codigoPais2` en `comparar.page.html` con mensaje "Elegí dos países diferentes."
 * Refactor de `DetallePaisPage` con método `cargarPais()`, propiedad `error`, spinner de carga y botón de reintento.
 * Reescritura completa de `README.md` con secciones de instalación, componentes y capturas.
+* Capturas de pantalla generadas con Claude.
+* Versión corregida de `README.md`, `IA.md` y `regiones.page.ts` preparada con Claude.
 
 ### Problemas encontrados y cómo se resolvieron
-* **Encabezado "América" congelado en Regiones:** El lazy proxy de `ion-segment` de Ionic 9 usa `ChangeDetectionStrategy.OnPush` internamente y dispara `ionChange` fuera de la zona de Angular. Se resolvió con `NgZone.run()` + `ChangeDetectorRef.markForCheck()` + `detectChanges()` y un `setTimeout` para un segundo ciclo de detección.
+* **Encabezado de región que no se actualizaba:** primero se probó una solución con `NgZone` y `ChangeDetectorRef`; después se simplificó, leyendo el valor del evento `ionChange`, y se quitó el código que no hacía falta.
 * **Datos incorrectos en `paises.json`:** La moneda de Zimbabue aparecía como "Pula botsuano" (moneda de Botsuana); se corrigió a "ZiG (oro de Zimbabue)". El área de Ciudad del Vaticano era 0 en vez de 0.44 km². Las capitales de Eslovenia y Guinea-Bisáu no estaban en español.
