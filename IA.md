@@ -99,7 +99,8 @@
 * Descarga automatizada de 194 banderas en formato PNG desde `flagcdn.com` a `src/assets/banderas/`.
 * Corrección del encabezado de región en `RegionesPage` que no se actualizaba al cambiar de continente (problema de `ion-segment` con lazy proxy y `OnPush`).
 * Correcciones de calidad: validación de mismo país en Comparar, spinner/error/reintento en Detalle, `object-fit: contain` en banderas de Países, y corrección de datos erróneos (Zimbabue, Ciudad del Vaticano, Eslovenia, Guinea-Bisáu).
-
+ * **Encabezado de región que no se actualizaba:** se probó una solución con `NgZone` y `ChangeDetectorRef`; después se simplificó, leyendo el valor del evento `ionChange`, y se quitó lo que no hacía falta.
+* **Capturas:** generadas con ayuda de Claude.
 ### Partes generadas con ayuda de IA
 * Script Node.js (`build_paises.mjs`) para extraer, traducir y generar `paises.json` con 194 países desde `mledoze/countries`.
 * Script Node.js (`download_flags.mjs`) para descargar y validar las 194 banderas PNG.

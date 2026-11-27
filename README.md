@@ -31,6 +31,8 @@ Aplicación móvil híbrida desarrollada con **Ionic 9** y **Angular 21** para e
 
 Los datos y banderas locales se generaron a partir del repositorio abierto **[mledoze/countries](https://github.com/mledoze/countries)** y se almacenan localmente en el proyecto para funcionar sin conexión a internet:
 
+* **Banderas:** `src/assets/banderas/*.png` (194 imágenes descargadas de [flagcdn.com](https://flagcdn.com)).
+
 * **Datos estructurados:** `src/assets/data/paises.json` (194 países reales de América, Europa, Asia, África y Oceanía).
 * **Banderas:** `src/assets/banderas/*.png` (194 imágenes locales en formato PNG).
 
@@ -106,5 +108,12 @@ Para generar nuevas capturas: **F12** → vista de celular → **Ctrl + Shift + 
 
 ## Capturas de pantalla
 
-Las capturas de pantalla de la aplicación se encuentran en la carpeta `screenshots/`.
+## Capturas de pantalla
 
+| Países | Detalle |
+|:---:|:---:|
+| <img src="screenshots/paises.png" width="250"> | <img src="screenshots/detalle.png" width="250"> |
+
+| Regiones | Comparar |
+|:---:|:---:|
+| <img src="screenshots/regiones.png" width="250"> | <img src="screenshots/comparar.png" width="250"> |
