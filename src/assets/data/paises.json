@@ -416,5 +416,2243 @@
     ],
     "moneda": "Dólar fiyiano",
     "bandera": "assets/banderas/fji.png"
+  },
+  {
+    "codigo": "AFG",
+    "nombre": "Afganistán",
+    "capital": "Kabul",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 652230,
+    "idiomas": [
+      "Darí",
+      "Pastún",
+      "Turcomano"
+    ],
+    "moneda": "Afgani afgano",
+    "bandera": "assets/banderas/afg.png"
+  },
+  {
+    "codigo": "AGO",
+    "nombre": "Angola",
+    "capital": "Luanda",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 1246700,
+    "idiomas": [
+      "Portugués"
+    ],
+    "moneda": "Kuanza angoleño",
+    "bandera": "assets/banderas/ago.png"
+  },
+  {
+    "codigo": "ALB",
+    "nombre": "Albania",
+    "capital": "Tirana",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 28748,
+    "idiomas": [
+      "Albanés"
+    ],
+    "moneda": "Lek albanés",
+    "bandera": "assets/banderas/alb.png"
+  },
+  {
+    "codigo": "AND",
+    "nombre": "Andorra",
+    "capital": "Andorra la Vieja",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 468,
+    "idiomas": [
+      "Catalán"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/and.png"
+  },
+  {
+    "codigo": "ARM",
+    "nombre": "Armenia",
+    "capital": "Ereván",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 29743,
+    "idiomas": [
+      "Armenio"
+    ],
+    "moneda": "Dram armenio",
+    "bandera": "assets/banderas/arm.png"
+  },
+  {
+    "codigo": "ATG",
+    "nombre": "Antigua y Barbuda",
+    "capital": "Saint John's",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 442,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar del Caribe Oriental",
+    "bandera": "assets/banderas/atg.png"
+  },
+  {
+    "codigo": "AUT",
+    "nombre": "Austria",
+    "capital": "Viena",
+    "region": "Europa",
+    "subregion": "Europa Central",
+    "area": 83871,
+    "idiomas": [
+      "Alemán austro-bávaro"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/aut.png"
+  },
+  {
+    "codigo": "AZE",
+    "nombre": "Azerbaiyán",
+    "capital": "Bakú",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 86600,
+    "idiomas": [
+      "Azerbaiyano",
+      "Ruso"
+    ],
+    "moneda": "Manat azerbaiyano",
+    "bandera": "assets/banderas/aze.png"
+  },
+  {
+    "codigo": "BDI",
+    "nombre": "Burundi",
+    "capital": "Gitega",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 27834,
+    "idiomas": [
+      "Francés",
+      "Kirundi"
+    ],
+    "moneda": "Franco burundés",
+    "bandera": "assets/banderas/bdi.png"
+  },
+  {
+    "codigo": "BEL",
+    "nombre": "Bélgica",
+    "capital": "Bruselas",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 30528,
+    "idiomas": [
+      "Alemán",
+      "Francés",
+      "Neerlandés"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/bel.png"
+  },
+  {
+    "codigo": "BEN",
+    "nombre": "Benín",
+    "capital": "Porto-Novo",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 112622,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/ben.png"
+  },
+  {
+    "codigo": "BFA",
+    "nombre": "Burkina Faso",
+    "capital": "Uagadugú",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 272967,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/bfa.png"
+  },
+  {
+    "codigo": "BGD",
+    "nombre": "Bangladesh",
+    "capital": "Daca",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 147570,
+    "idiomas": [
+      "Bengalí"
+    ],
+    "moneda": "Taka bangladesí",
+    "bandera": "assets/banderas/bgd.png"
+  },
+  {
+    "codigo": "BGR",
+    "nombre": "Bulgaria",
+    "capital": "Sofía",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 110879,
+    "idiomas": [
+      "Búlgaro"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/bgr.png"
+  },
+  {
+    "codigo": "BHR",
+    "nombre": "Baréin",
+    "capital": "Manama",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 765,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Dinar bareiní",
+    "bandera": "assets/banderas/bhr.png"
+  },
+  {
+    "codigo": "BHS",
+    "nombre": "Bahamas",
+    "capital": "Nassau",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 13943,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar bahameño",
+    "bandera": "assets/banderas/bhs.png"
+  },
+  {
+    "codigo": "BIH",
+    "nombre": "Bosnia y Herzegovina",
+    "capital": "Sarajevo",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 51209,
+    "idiomas": [
+      "Bosnio",
+      "Croata",
+      "Serbio"
+    ],
+    "moneda": "Marco convertible de Bosnia y Herzegovina",
+    "bandera": "assets/banderas/bih.png"
+  },
+  {
+    "codigo": "BLR",
+    "nombre": "Bielorrusia",
+    "capital": "Minsk",
+    "region": "Europa",
+    "subregion": "Europa Oriental",
+    "area": 207600,
+    "idiomas": [
+      "Bielorruso",
+      "Ruso"
+    ],
+    "moneda": "Rublo bielorruso",
+    "bandera": "assets/banderas/blr.png"
+  },
+  {
+    "codigo": "BLZ",
+    "nombre": "Belice",
+    "capital": "Belmopán",
+    "region": "América",
+    "subregion": "América Central",
+    "area": 22966,
+    "idiomas": [
+      "Criollo beliceño",
+      "Inglés",
+      "Español"
+    ],
+    "moneda": "Dólar beliceño",
+    "bandera": "assets/banderas/blz.png"
+  },
+  {
+    "codigo": "BRB",
+    "nombre": "Barbados",
+    "capital": "Bridgetown",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 430,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar barbadense",
+    "bandera": "assets/banderas/brb.png"
+  },
+  {
+    "codigo": "BRN",
+    "nombre": "Brunéi",
+    "capital": "Bandar Seri Begawan",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 5765,
+    "idiomas": [
+      "Malayo"
+    ],
+    "moneda": "Dólar bruneano",
+    "bandera": "assets/banderas/brn.png"
+  },
+  {
+    "codigo": "BTN",
+    "nombre": "Bután",
+    "capital": "Thimphu",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 38394,
+    "idiomas": [
+      "Dzongkha"
+    ],
+    "moneda": "Gultrum butanés",
+    "bandera": "assets/banderas/btn.png"
+  },
+  {
+    "codigo": "BWA",
+    "nombre": "Botsuana",
+    "capital": "Gaborone",
+    "region": "África",
+    "subregion": "África Austral",
+    "area": 582000,
+    "idiomas": [
+      "Inglés",
+      "Setsuana"
+    ],
+    "moneda": "Pula botsuano",
+    "bandera": "assets/banderas/bwa.png"
+  },
+  {
+    "codigo": "CAF",
+    "nombre": "República Centroafricana",
+    "capital": "Bangui",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 622984,
+    "idiomas": [
+      "Francés",
+      "Sango"
+    ],
+    "moneda": "Franco CFA de África Central",
+    "bandera": "assets/banderas/caf.png"
+  },
+  {
+    "codigo": "CHE",
+    "nombre": "Suiza",
+    "capital": "Berna",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 41284,
+    "idiomas": [
+      "Francés",
+      "Alemán suizo",
+      "Italiano",
+      "Romanche"
+    ],
+    "moneda": "Franco suizo",
+    "bandera": "assets/banderas/che.png"
+  },
+  {
+    "codigo": "CIV",
+    "nombre": "Costa de Marfil",
+    "capital": "Yamusukro",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 322463,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/civ.png"
+  },
+  {
+    "codigo": "CMR",
+    "nombre": "Camerún",
+    "capital": "Yaundé",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 475442,
+    "idiomas": [
+      "Inglés",
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Central",
+    "bandera": "assets/banderas/cmr.png"
+  },
+  {
+    "codigo": "COD",
+    "nombre": "República Democrática del Congo",
+    "capital": "Kinsasa",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 2344858,
+    "idiomas": [
+      "Francés",
+      "Kongo",
+      "Lingala",
+      "Luba-lulua",
+      "Suajili"
+    ],
+    "moneda": "Franco congoleño",
+    "bandera": "assets/banderas/cod.png"
+  },
+  {
+    "codigo": "COG",
+    "nombre": "República del Congo",
+    "capital": "Brazzaville",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 342000,
+    "idiomas": [
+      "Francés",
+      "Kongo",
+      "Lingala"
+    ],
+    "moneda": "Franco CFA de África Central",
+    "bandera": "assets/banderas/cog.png"
+  },
+  {
+    "codigo": "COL",
+    "nombre": "Colombia",
+    "capital": "Bogotá",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 1141748,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Peso colombiano",
+    "bandera": "assets/banderas/col.png"
+  },
+  {
+    "codigo": "COM",
+    "nombre": "Comoras",
+    "capital": "Moroni",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 1862,
+    "idiomas": [
+      "Árabe",
+      "Francés",
+      "Comorense"
+    ],
+    "moneda": "Franco comorense",
+    "bandera": "assets/banderas/com.png"
+  },
+  {
+    "codigo": "CPV",
+    "nombre": "Cabo Verde",
+    "capital": "Praia",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 4033,
+    "idiomas": [
+      "Portugués"
+    ],
+    "moneda": "Escudo de Cabo Verde",
+    "bandera": "assets/banderas/cpv.png"
+  },
+  {
+    "codigo": "CRI",
+    "nombre": "Costa Rica",
+    "capital": "San José",
+    "region": "América",
+    "subregion": "América Central",
+    "area": 51100,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Colón costarricense",
+    "bandera": "assets/banderas/cri.png"
+  },
+  {
+    "codigo": "CUB",
+    "nombre": "Cuba",
+    "capital": "La Habana",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 109884,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Peso cubano",
+    "bandera": "assets/banderas/cub.png"
+  },
+  {
+    "codigo": "CYP",
+    "nombre": "Chipre",
+    "capital": "Nicosia",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 9251,
+    "idiomas": [
+      "Griego",
+      "Turco"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/cyp.png"
+  },
+  {
+    "codigo": "CZE",
+    "nombre": "Chequia",
+    "capital": "Praga",
+    "region": "Europa",
+    "subregion": "Europa Central",
+    "area": 78865,
+    "idiomas": [
+      "Checo",
+      "Eslovaco"
+    ],
+    "moneda": "Corona checa",
+    "bandera": "assets/banderas/cze.png"
+  },
+  {
+    "codigo": "DJI",
+    "nombre": "Yibuti",
+    "capital": "Yibuti",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 23200,
+    "idiomas": [
+      "Árabe",
+      "Francés"
+    ],
+    "moneda": "Franco yibutiano",
+    "bandera": "assets/banderas/dji.png"
+  },
+  {
+    "codigo": "DMA",
+    "nombre": "Dominica",
+    "capital": "Roseau",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 751,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar del Caribe Oriental",
+    "bandera": "assets/banderas/dma.png"
+  },
+  {
+    "codigo": "DNK",
+    "nombre": "Dinamarca",
+    "capital": "Copenhague",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 43094,
+    "idiomas": [
+      "Danés"
+    ],
+    "moneda": "Corona danesa",
+    "bandera": "assets/banderas/dnk.png"
+  },
+  {
+    "codigo": "DOM",
+    "nombre": "República Dominicana",
+    "capital": "Santo Domingo",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 48671,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Peso dominicano",
+    "bandera": "assets/banderas/dom.png"
+  },
+  {
+    "codigo": "DZA",
+    "nombre": "Argelia",
+    "capital": "Argel",
+    "region": "África",
+    "subregion": "África del Norte",
+    "area": 2381741,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Dinar argelino",
+    "bandera": "assets/banderas/dza.png"
+  },
+  {
+    "codigo": "ECU",
+    "nombre": "Ecuador",
+    "capital": "Quito",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 276841,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Dólar estadounidense",
+    "bandera": "assets/banderas/ecu.png"
+  },
+  {
+    "codigo": "ERI",
+    "nombre": "Eritrea",
+    "capital": "Asmara",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 117600,
+    "idiomas": [
+      "Árabe",
+      "Inglés",
+      "Tigriña"
+    ],
+    "moneda": "Nakfa eritreo",
+    "bandera": "assets/banderas/eri.png"
+  },
+  {
+    "codigo": "EST",
+    "nombre": "Estonia",
+    "capital": "Tallin",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 45227,
+    "idiomas": [
+      "Estonio"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/est.png"
+  },
+  {
+    "codigo": "ETH",
+    "nombre": "Etiopía",
+    "capital": "Adís Abeba",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 1104300,
+    "idiomas": [
+      "Amárico"
+    ],
+    "moneda": "Bir etíope",
+    "bandera": "assets/banderas/eth.png"
+  },
+  {
+    "codigo": "FIN",
+    "nombre": "Finlandia",
+    "capital": "Helsinki",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 338424,
+    "idiomas": [
+      "Finés",
+      "Sueco"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/fin.png"
+  },
+  {
+    "codigo": "FSM",
+    "nombre": "Micronesia",
+    "capital": "Palikir",
+    "region": "Oceanía",
+    "subregion": "Micronesia",
+    "area": 702,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar estadounidense",
+    "bandera": "assets/banderas/fsm.png"
+  },
+  {
+    "codigo": "GAB",
+    "nombre": "Gabón",
+    "capital": "Libreville",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 267668,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Central",
+    "bandera": "assets/banderas/gab.png"
+  },
+  {
+    "codigo": "GEO",
+    "nombre": "Georgia",
+    "capital": "Tiflis",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 69700,
+    "idiomas": [
+      "Georgiano"
+    ],
+    "moneda": "Lari georgiano",
+    "bandera": "assets/banderas/geo.png"
+  },
+  {
+    "codigo": "GHA",
+    "nombre": "Ghana",
+    "capital": "Acra",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 238533,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Cedi ghanés",
+    "bandera": "assets/banderas/gha.png"
+  },
+  {
+    "codigo": "GIN",
+    "nombre": "Guinea",
+    "capital": "Conakri",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 245857,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco guineano",
+    "bandera": "assets/banderas/gin.png"
+  },
+  {
+    "codigo": "GMB",
+    "nombre": "Gambia",
+    "capital": "Banjul",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 10689,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dalasi gambiano",
+    "bandera": "assets/banderas/gmb.png"
+  },
+  {
+    "codigo": "GNB",
+    "nombre": "Guinea-Bisáu",
+    "capital": "Bissau",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 36125,
+    "idiomas": [
+      "Portugués",
+      "Criollo de Guinea-Bisáu"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/gnb.png"
+  },
+  {
+    "codigo": "GNQ",
+    "nombre": "Guinea Ecuatorial",
+    "capital": "Ciudad de la Paz",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 28051,
+    "idiomas": [
+      "Francés",
+      "Portugués",
+      "Español"
+    ],
+    "moneda": "Franco CFA de África Central",
+    "bandera": "assets/banderas/gnq.png"
+  },
+  {
+    "codigo": "GRC",
+    "nombre": "Grecia",
+    "capital": "Atenas",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 131990,
+    "idiomas": [
+      "Griego"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/grc.png"
+  },
+  {
+    "codigo": "GRD",
+    "nombre": "Granada",
+    "capital": "St. George's",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 344,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar del Caribe Oriental",
+    "bandera": "assets/banderas/grd.png"
+  },
+  {
+    "codigo": "GTM",
+    "nombre": "Guatemala",
+    "capital": "Ciudad de Guatemala",
+    "region": "América",
+    "subregion": "América Central",
+    "area": 108889,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Quetzal guatemalteco",
+    "bandera": "assets/banderas/gtm.png"
+  },
+  {
+    "codigo": "GUY",
+    "nombre": "Guyana",
+    "capital": "Georgetown",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 214969,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar guyanés",
+    "bandera": "assets/banderas/guy.png"
+  },
+  {
+    "codigo": "HND",
+    "nombre": "Honduras",
+    "capital": "Tegucigalpa",
+    "region": "América",
+    "subregion": "América Central",
+    "area": 112492,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Lempira hondureño",
+    "bandera": "assets/banderas/hnd.png"
+  },
+  {
+    "codigo": "HRV",
+    "nombre": "Croacia",
+    "capital": "Zagreb",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 56594,
+    "idiomas": [
+      "Croata"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/hrv.png"
+  },
+  {
+    "codigo": "HTI",
+    "nombre": "Haití",
+    "capital": "Puerto Príncipe",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 27750,
+    "idiomas": [
+      "Francés",
+      "Criollo haitiano"
+    ],
+    "moneda": "Gurde haitiano",
+    "bandera": "assets/banderas/hti.png"
+  },
+  {
+    "codigo": "HUN",
+    "nombre": "Hungría",
+    "capital": "Budapest",
+    "region": "Europa",
+    "subregion": "Europa Central",
+    "area": 93028,
+    "idiomas": [
+      "Húngaro"
+    ],
+    "moneda": "Forinto húngaro",
+    "bandera": "assets/banderas/hun.png"
+  },
+  {
+    "codigo": "IDN",
+    "nombre": "Indonesia",
+    "capital": "Yakarta",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 1904569,
+    "idiomas": [
+      "Indonesio"
+    ],
+    "moneda": "Rupia indonesia",
+    "bandera": "assets/banderas/idn.png"
+  },
+  {
+    "codigo": "IRL",
+    "nombre": "Irlanda",
+    "capital": "Dublín",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 70273,
+    "idiomas": [
+      "Inglés",
+      "Irlandés"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/irl.png"
+  },
+  {
+    "codigo": "IRN",
+    "nombre": "Irán",
+    "capital": "Teherán",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 1648195,
+    "idiomas": [
+      "Persa"
+    ],
+    "moneda": "Rial iraní",
+    "bandera": "assets/banderas/irn.png"
+  },
+  {
+    "codigo": "IRQ",
+    "nombre": "Irak",
+    "capital": "Bagdad",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 438317,
+    "idiomas": [
+      "Árabe",
+      "Arameo",
+      "Kurdo sorani"
+    ],
+    "moneda": "Dinar iraquí",
+    "bandera": "assets/banderas/irq.png"
+  },
+  {
+    "codigo": "ISL",
+    "nombre": "Islandia",
+    "capital": "Reikiavik",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 103000,
+    "idiomas": [
+      "Islandés"
+    ],
+    "moneda": "Corona islandesa",
+    "bandera": "assets/banderas/isl.png"
+  },
+  {
+    "codigo": "ISR",
+    "nombre": "Israel",
+    "capital": "Jerusalén",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 20770,
+    "idiomas": [
+      "Árabe",
+      "Hebreo"
+    ],
+    "moneda": "Nuevo séquel israelí",
+    "bandera": "assets/banderas/isr.png"
+  },
+  {
+    "codigo": "JAM",
+    "nombre": "Jamaica",
+    "capital": "Kingston",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 10991,
+    "idiomas": [
+      "Inglés",
+      "Patois jamaiquino"
+    ],
+    "moneda": "Dólar jamaicano",
+    "bandera": "assets/banderas/jam.png"
+  },
+  {
+    "codigo": "JOR",
+    "nombre": "Jordania",
+    "capital": "Amán",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 89342,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Dinar jordano",
+    "bandera": "assets/banderas/jor.png"
+  },
+  {
+    "codigo": "KAZ",
+    "nombre": "Kazajistán",
+    "capital": "Astaná",
+    "region": "Asia",
+    "subregion": "Asia Central",
+    "area": 2724900,
+    "idiomas": [
+      "Kazajo",
+      "Ruso"
+    ],
+    "moneda": "Tengue kazajo",
+    "bandera": "assets/banderas/kaz.png"
+  },
+  {
+    "codigo": "KGZ",
+    "nombre": "Kirguizistán",
+    "capital": "Biskek",
+    "region": "Asia",
+    "subregion": "Asia Central",
+    "area": 199951,
+    "idiomas": [
+      "Kirguís",
+      "Ruso"
+    ],
+    "moneda": "Som kirguís",
+    "bandera": "assets/banderas/kgz.png"
+  },
+  {
+    "codigo": "KHM",
+    "nombre": "Camboya",
+    "capital": "Nom Pen",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 181035,
+    "idiomas": [
+      "Jemer"
+    ],
+    "moneda": "Riel camboyano",
+    "bandera": "assets/banderas/khm.png"
+  },
+  {
+    "codigo": "KIR",
+    "nombre": "Kiribati",
+    "capital": "Tarawa Sur",
+    "region": "Oceanía",
+    "subregion": "Micronesia",
+    "area": 811,
+    "idiomas": [
+      "Inglés",
+      "Gilbertés"
+    ],
+    "moneda": "Dólar australiano",
+    "bandera": "assets/banderas/kir.png"
+  },
+  {
+    "codigo": "KNA",
+    "nombre": "San Cristóbal y Nieves",
+    "capital": "Basseterre",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 261,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar del Caribe Oriental",
+    "bandera": "assets/banderas/kna.png"
+  },
+  {
+    "codigo": "KWT",
+    "nombre": "Kuwait",
+    "capital": "Ciudad de Kuwait",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 17818,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Dinar kuwaití",
+    "bandera": "assets/banderas/kwt.png"
+  },
+  {
+    "codigo": "LAO",
+    "nombre": "Laos",
+    "capital": "Vientián",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 236800,
+    "idiomas": [
+      "Lao"
+    ],
+    "moneda": "Kip laosiano",
+    "bandera": "assets/banderas/lao.png"
+  },
+  {
+    "codigo": "LBN",
+    "nombre": "Líbano",
+    "capital": "Beirut",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 10452,
+    "idiomas": [
+      "Árabe",
+      "Francés"
+    ],
+    "moneda": "Libra libanesa",
+    "bandera": "assets/banderas/lbn.png"
+  },
+  {
+    "codigo": "LBR",
+    "nombre": "Liberia",
+    "capital": "Monrovia",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 111369,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar liberiano",
+    "bandera": "assets/banderas/lbr.png"
+  },
+  {
+    "codigo": "LBY",
+    "nombre": "Libia",
+    "capital": "Trípoli",
+    "region": "África",
+    "subregion": "África del Norte",
+    "area": 1759540,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Dinar libio",
+    "bandera": "assets/banderas/lby.png"
+  },
+  {
+    "codigo": "LCA",
+    "nombre": "Santa Lucía",
+    "capital": "Castries",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 616,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar del Caribe Oriental",
+    "bandera": "assets/banderas/lca.png"
+  },
+  {
+    "codigo": "LIE",
+    "nombre": "Liechtenstein",
+    "capital": "Vaduz",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 160,
+    "idiomas": [
+      "Alemán"
+    ],
+    "moneda": "Franco suizo",
+    "bandera": "assets/banderas/lie.png"
+  },
+  {
+    "codigo": "LKA",
+    "nombre": "Sri Lanka",
+    "capital": "Colombo",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 65610,
+    "idiomas": [
+      "Cingalés",
+      "Tamil"
+    ],
+    "moneda": "Rupia esrilanquesa",
+    "bandera": "assets/banderas/lka.png"
+  },
+  {
+    "codigo": "LSO",
+    "nombre": "Lesoto",
+    "capital": "Maseru",
+    "region": "África",
+    "subregion": "África Austral",
+    "area": 30355,
+    "idiomas": [
+      "Inglés",
+      "Sotho meridional"
+    ],
+    "moneda": "Loti lesotense",
+    "bandera": "assets/banderas/lso.png"
+  },
+  {
+    "codigo": "LTU",
+    "nombre": "Lituania",
+    "capital": "Vilna",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 65300,
+    "idiomas": [
+      "Lituano"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/ltu.png"
+  },
+  {
+    "codigo": "LUX",
+    "nombre": "Luxemburgo",
+    "capital": "Luxemburgo",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 2586,
+    "idiomas": [
+      "Alemán",
+      "Francés",
+      "Luxemburgués"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/lux.png"
+  },
+  {
+    "codigo": "LVA",
+    "nombre": "Letonia",
+    "capital": "Riga",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 64559,
+    "idiomas": [
+      "Letón"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/lva.png"
+  },
+  {
+    "codigo": "MCO",
+    "nombre": "Mónaco",
+    "capital": "Mónaco",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 2,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/mco.png"
+  },
+  {
+    "codigo": "MDA",
+    "nombre": "Moldavia",
+    "capital": "Chisináu",
+    "region": "Europa",
+    "subregion": "Europa Oriental",
+    "area": 33846,
+    "idiomas": [
+      "Rumano"
+    ],
+    "moneda": "Leu moldavo",
+    "bandera": "assets/banderas/mda.png"
+  },
+  {
+    "codigo": "MDG",
+    "nombre": "Madagascar",
+    "capital": "Antananarivo",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 587041,
+    "idiomas": [
+      "Francés",
+      "Malgache"
+    ],
+    "moneda": "Ariari malgache",
+    "bandera": "assets/banderas/mdg.png"
+  },
+  {
+    "codigo": "MDV",
+    "nombre": "Maldivas",
+    "capital": "Malé",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 300,
+    "idiomas": [
+      "Divehi"
+    ],
+    "moneda": "Rufiya maldiva",
+    "bandera": "assets/banderas/mdv.png"
+  },
+  {
+    "codigo": "MHL",
+    "nombre": "Islas Marshall",
+    "capital": "Majuro",
+    "region": "Oceanía",
+    "subregion": "Micronesia",
+    "area": 181,
+    "idiomas": [
+      "Inglés",
+      "Marshalés"
+    ],
+    "moneda": "Dólar estadounidense",
+    "bandera": "assets/banderas/mhl.png"
+  },
+  {
+    "codigo": "MKD",
+    "nombre": "Macedonia del Norte",
+    "capital": "Skopje",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 25713,
+    "idiomas": [
+      "Macedonio"
+    ],
+    "moneda": "Dinar macedonio",
+    "bandera": "assets/banderas/mkd.png"
+  },
+  {
+    "codigo": "MLI",
+    "nombre": "Malí",
+    "capital": "Bamako",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 1240192,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/mli.png"
+  },
+  {
+    "codigo": "MLT",
+    "nombre": "Malta",
+    "capital": "La Valeta",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 316,
+    "idiomas": [
+      "Inglés",
+      "Maltés"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/mlt.png"
+  },
+  {
+    "codigo": "MMR",
+    "nombre": "Myanmar",
+    "capital": "Naypyidaw",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 676578,
+    "idiomas": [
+      "Birmano"
+    ],
+    "moneda": "Kiat de Myanmar",
+    "bandera": "assets/banderas/mmr.png"
+  },
+  {
+    "codigo": "MNE",
+    "nombre": "Montenegro",
+    "capital": "Podgorica",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 13812,
+    "idiomas": [
+      "Serbio (Montenegro)"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/mne.png"
+  },
+  {
+    "codigo": "MNG",
+    "nombre": "Mongolia",
+    "capital": "Ulán Bator",
+    "region": "Asia",
+    "subregion": "Asia Oriental",
+    "area": 1564110,
+    "idiomas": [
+      "Mongol"
+    ],
+    "moneda": "Tugrik mongol",
+    "bandera": "assets/banderas/mng.png"
+  },
+  {
+    "codigo": "MOZ",
+    "nombre": "Mozambique",
+    "capital": "Maputo",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 801590,
+    "idiomas": [
+      "Portugués"
+    ],
+    "moneda": "Metical mozambiqueño",
+    "bandera": "assets/banderas/moz.png"
+  },
+  {
+    "codigo": "MRT",
+    "nombre": "Mauritania",
+    "capital": "Nuakchot",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 1030700,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Uguiya mauritano",
+    "bandera": "assets/banderas/mrt.png"
+  },
+  {
+    "codigo": "MUS",
+    "nombre": "Mauricio",
+    "capital": "Puerto Luis",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 2040,
+    "idiomas": [
+      "Inglés",
+      "Francés",
+      "Criollo mauriciano"
+    ],
+    "moneda": "Rupia mauriciana",
+    "bandera": "assets/banderas/mus.png"
+  },
+  {
+    "codigo": "MWI",
+    "nombre": "Malawi",
+    "capital": "Lilongwe",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 118484,
+    "idiomas": [
+      "Inglés",
+      "Nyanja"
+    ],
+    "moneda": "Kuacha malauí",
+    "bandera": "assets/banderas/mwi.png"
+  },
+  {
+    "codigo": "MYS",
+    "nombre": "Malasia",
+    "capital": "Kuala Lumpur",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 330803,
+    "idiomas": [
+      "Inglés",
+      "Malayo"
+    ],
+    "moneda": "Ringit malasio",
+    "bandera": "assets/banderas/mys.png"
+  },
+  {
+    "codigo": "NAM",
+    "nombre": "Namibia",
+    "capital": "Windhoek",
+    "region": "África",
+    "subregion": "África Austral",
+    "area": 825615,
+    "idiomas": [
+      "Afrikáans",
+      "Alemán",
+      "Inglés",
+      "Herero",
+      "Khoekhoe",
+      "Kwangali",
+      "Lozi",
+      "Ndonga",
+      "Setsuana"
+    ],
+    "moneda": "Dólar namibio",
+    "bandera": "assets/banderas/nam.png"
+  },
+  {
+    "codigo": "NER",
+    "nombre": "Níger",
+    "capital": "Niamey",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 1267000,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/ner.png"
+  },
+  {
+    "codigo": "NIC",
+    "nombre": "Nicaragua",
+    "capital": "Managua",
+    "region": "América",
+    "subregion": "América Central",
+    "area": 130373,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Córdoba oro",
+    "bandera": "assets/banderas/nic.png"
+  },
+  {
+    "codigo": "NLD",
+    "nombre": "Países Bajos",
+    "capital": "Ámsterdam",
+    "region": "Europa",
+    "subregion": "Europa Occidental",
+    "area": 41850,
+    "idiomas": [
+      "Neerlandés"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/nld.png"
+  },
+  {
+    "codigo": "NPL",
+    "nombre": "Nepal",
+    "capital": "Katmandú",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 147181,
+    "idiomas": [
+      "Nepalí"
+    ],
+    "moneda": "Rupia nepalí",
+    "bandera": "assets/banderas/npl.png"
+  },
+  {
+    "codigo": "NRU",
+    "nombre": "Nauru",
+    "capital": "Yaren",
+    "region": "Oceanía",
+    "subregion": "Micronesia",
+    "area": 21,
+    "idiomas": [
+      "Inglés",
+      "Nauruano"
+    ],
+    "moneda": "Dólar australiano",
+    "bandera": "assets/banderas/nru.png"
+  },
+  {
+    "codigo": "OMN",
+    "nombre": "Omán",
+    "capital": "Mascate",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 309500,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Rial omaní",
+    "bandera": "assets/banderas/omn.png"
+  },
+  {
+    "codigo": "PAK",
+    "nombre": "Pakistán",
+    "capital": "Islamabad",
+    "region": "Asia",
+    "subregion": "Asia del Sur",
+    "area": 881912,
+    "idiomas": [
+      "Inglés",
+      "Urdu"
+    ],
+    "moneda": "Rupia pakistaní",
+    "bandera": "assets/banderas/pak.png"
+  },
+  {
+    "codigo": "PAN",
+    "nombre": "Panamá",
+    "capital": "Ciudad de Panamá",
+    "region": "América",
+    "subregion": "América Central",
+    "area": 75417,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Balboa panameño",
+    "bandera": "assets/banderas/pan.png"
+  },
+  {
+    "codigo": "PHL",
+    "nombre": "Filipinas",
+    "capital": "Manila",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 342353,
+    "idiomas": [
+      "Inglés",
+      "Filipino"
+    ],
+    "moneda": "Peso filipino",
+    "bandera": "assets/banderas/phl.png"
+  },
+  {
+    "codigo": "PLW",
+    "nombre": "Palaos",
+    "capital": "Ngerulmud",
+    "region": "Oceanía",
+    "subregion": "Micronesia",
+    "area": 459,
+    "idiomas": [
+      "Inglés",
+      "Palauano"
+    ],
+    "moneda": "Dólar estadounidense",
+    "bandera": "assets/banderas/plw.png"
+  },
+  {
+    "codigo": "PNG",
+    "nombre": "Papúa Nueva Guinea",
+    "capital": "Puerto Moresby",
+    "region": "Oceanía",
+    "subregion": "Melanesia",
+    "area": 462840,
+    "idiomas": [
+      "Inglés",
+      "Hiri motu",
+      "Tok pisin"
+    ],
+    "moneda": "Kina papú",
+    "bandera": "assets/banderas/png.png"
+  },
+  {
+    "codigo": "POL",
+    "nombre": "Polonia",
+    "capital": "Varsovia",
+    "region": "Europa",
+    "subregion": "Europa Central",
+    "area": 312679,
+    "idiomas": [
+      "Polaco"
+    ],
+    "moneda": "Esloti polaco",
+    "bandera": "assets/banderas/pol.png"
+  },
+  {
+    "codigo": "PRK",
+    "nombre": "Corea del Norte",
+    "capital": "Pionyang",
+    "region": "Asia",
+    "subregion": "Asia Oriental",
+    "area": 120538,
+    "idiomas": [
+      "Coreano"
+    ],
+    "moneda": "Won norcoreano",
+    "bandera": "assets/banderas/prk.png"
+  },
+  {
+    "codigo": "QAT",
+    "nombre": "Catar",
+    "capital": "Doha",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 11586,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Rial catarí",
+    "bandera": "assets/banderas/qat.png"
+  },
+  {
+    "codigo": "ROU",
+    "nombre": "Rumania",
+    "capital": "Bucarest",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 238391,
+    "idiomas": [
+      "Rumano"
+    ],
+    "moneda": "Leu rumano",
+    "bandera": "assets/banderas/rou.png"
+  },
+  {
+    "codigo": "RUS",
+    "nombre": "Rusia",
+    "capital": "Moscú",
+    "region": "Europa",
+    "subregion": "Europa Oriental",
+    "area": 17098242,
+    "idiomas": [
+      "Ruso"
+    ],
+    "moneda": "Rublo ruso",
+    "bandera": "assets/banderas/rus.png"
+  },
+  {
+    "codigo": "RWA",
+    "nombre": "Ruanda",
+    "capital": "Kigali",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 26338,
+    "idiomas": [
+      "Inglés",
+      "Francés",
+      "Kinyarwanda"
+    ],
+    "moneda": "Franco ruandés",
+    "bandera": "assets/banderas/rwa.png"
+  },
+  {
+    "codigo": "SAU",
+    "nombre": "Arabia Saudí",
+    "capital": "Riad",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 2149690,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Rial saudí",
+    "bandera": "assets/banderas/sau.png"
+  },
+  {
+    "codigo": "SDN",
+    "nombre": "Sudán",
+    "capital": "Jartum",
+    "region": "África",
+    "subregion": "África del Norte",
+    "area": 1886068,
+    "idiomas": [
+      "Árabe",
+      "Inglés"
+    ],
+    "moneda": "Libra sudanesa",
+    "bandera": "assets/banderas/sdn.png"
+  },
+  {
+    "codigo": "SEN",
+    "nombre": "Senegal",
+    "capital": "Dakar",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 196722,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/sen.png"
+  },
+  {
+    "codigo": "SGP",
+    "nombre": "Singapur",
+    "capital": "Singapur",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 710,
+    "idiomas": [
+      "Inglés",
+      "Malayo",
+      "Tamil",
+      "Chino"
+    ],
+    "moneda": "Dólar singapurense",
+    "bandera": "assets/banderas/sgp.png"
+  },
+  {
+    "codigo": "SLB",
+    "nombre": "Islas Salomón",
+    "capital": "Honiara",
+    "region": "Oceanía",
+    "subregion": "Melanesia",
+    "area": 28896,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar salomonense",
+    "bandera": "assets/banderas/slb.png"
+  },
+  {
+    "codigo": "SLE",
+    "nombre": "Sierra Leona",
+    "capital": "Freetown",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 71740,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Leona sierraleonesa",
+    "bandera": "assets/banderas/sle.png"
+  },
+  {
+    "codigo": "SLV",
+    "nombre": "El Salvador",
+    "capital": "San Salvador",
+    "region": "América",
+    "subregion": "América Central",
+    "area": 21041,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Dólar estadounidense",
+    "bandera": "assets/banderas/slv.png"
+  },
+  {
+    "codigo": "SMR",
+    "nombre": "San Marino",
+    "capital": "Ciudad de San Marino",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 61,
+    "idiomas": [
+      "Italiano"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/smr.png"
+  },
+  {
+    "codigo": "SOM",
+    "nombre": "Somalia",
+    "capital": "Mogadiscio",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 637657,
+    "idiomas": [
+      "Árabe",
+      "Somalí"
+    ],
+    "moneda": "Chelín somalí",
+    "bandera": "assets/banderas/som.png"
+  },
+  {
+    "codigo": "SRB",
+    "nombre": "Serbia",
+    "capital": "Belgrado",
+    "region": "Europa",
+    "subregion": "Europa Sudoriental",
+    "area": 88361,
+    "idiomas": [
+      "Serbio"
+    ],
+    "moneda": "Dinar serbio",
+    "bandera": "assets/banderas/srb.png"
+  },
+  {
+    "codigo": "SSD",
+    "nombre": "Sudán del Sur",
+    "capital": "Juba",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 619745,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Libra sursudanesa",
+    "bandera": "assets/banderas/ssd.png"
+  },
+  {
+    "codigo": "STP",
+    "nombre": "Santo Tomé y Príncipe",
+    "capital": "São Tomé",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 964,
+    "idiomas": [
+      "Portugués"
+    ],
+    "moneda": "Dobra santotomense",
+    "bandera": "assets/banderas/stp.png"
+  },
+  {
+    "codigo": "SUR",
+    "nombre": "Surinam",
+    "capital": "Paramaribo",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 163820,
+    "idiomas": [
+      "Neerlandés"
+    ],
+    "moneda": "Dólar surinamés",
+    "bandera": "assets/banderas/sur.png"
+  },
+  {
+    "codigo": "SVK",
+    "nombre": "Eslovaquia",
+    "capital": "Bratislava",
+    "region": "Europa",
+    "subregion": "Europa Central",
+    "area": 49037,
+    "idiomas": [
+      "Eslovaco"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/svk.png"
+  },
+  {
+    "codigo": "SVN",
+    "nombre": "Eslovenia",
+    "capital": "Ljubljana",
+    "region": "Europa",
+    "subregion": "Europa Central",
+    "area": 20273,
+    "idiomas": [
+      "Esloveno"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/svn.png"
+  },
+  {
+    "codigo": "SWE",
+    "nombre": "Suecia",
+    "capital": "Estocolmo",
+    "region": "Europa",
+    "subregion": "Europa del Norte",
+    "area": 450295,
+    "idiomas": [
+      "Sueco"
+    ],
+    "moneda": "Corona sueca",
+    "bandera": "assets/banderas/swe.png"
+  },
+  {
+    "codigo": "SWZ",
+    "nombre": "Esuatini",
+    "capital": "Lobamba",
+    "region": "África",
+    "subregion": "África Austral",
+    "area": 17364,
+    "idiomas": [
+      "Inglés",
+      "Suazi"
+    ],
+    "moneda": "Lilangeni esuatiní",
+    "bandera": "assets/banderas/swz.png"
+  },
+  {
+    "codigo": "SYC",
+    "nombre": "Seychelles",
+    "capital": "Victoria",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 452,
+    "idiomas": [
+      "Criollo seychelense",
+      "Inglés",
+      "Francés"
+    ],
+    "moneda": "Rupia seychellense",
+    "bandera": "assets/banderas/syc.png"
+  },
+  {
+    "codigo": "SYR",
+    "nombre": "Siria",
+    "capital": "Damasco",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 185180,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Libra siria",
+    "bandera": "assets/banderas/syr.png"
+  },
+  {
+    "codigo": "TCD",
+    "nombre": "Chad",
+    "capital": "Yamena",
+    "region": "África",
+    "subregion": "África Central",
+    "area": 1284000,
+    "idiomas": [
+      "Árabe",
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Central",
+    "bandera": "assets/banderas/tcd.png"
+  },
+  {
+    "codigo": "TGO",
+    "nombre": "Togo",
+    "capital": "Lomé",
+    "region": "África",
+    "subregion": "África Occidental",
+    "area": 56785,
+    "idiomas": [
+      "Francés"
+    ],
+    "moneda": "Franco CFA de África Occidental",
+    "bandera": "assets/banderas/tgo.png"
+  },
+  {
+    "codigo": "TJK",
+    "nombre": "Tayikistán",
+    "capital": "Dusambé",
+    "region": "Asia",
+    "subregion": "Asia Central",
+    "area": 143100,
+    "idiomas": [
+      "Ruso",
+      "Tayiko"
+    ],
+    "moneda": "Somoni tayiko",
+    "bandera": "assets/banderas/tjk.png"
+  },
+  {
+    "codigo": "TKM",
+    "nombre": "Turkmenistán",
+    "capital": "Asjabad",
+    "region": "Asia",
+    "subregion": "Asia Central",
+    "area": 488100,
+    "idiomas": [
+      "Ruso",
+      "Turcomano"
+    ],
+    "moneda": "Manat turcomano",
+    "bandera": "assets/banderas/tkm.png"
+  },
+  {
+    "codigo": "TLS",
+    "nombre": "Timor Oriental",
+    "capital": "Dili",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 14874,
+    "idiomas": [
+      "Portugués",
+      "Tetún"
+    ],
+    "moneda": "Dólar estadounidense",
+    "bandera": "assets/banderas/tls.png"
+  },
+  {
+    "codigo": "TON",
+    "nombre": "Tonga",
+    "capital": "Nuku'alofa",
+    "region": "Oceanía",
+    "subregion": "Polinesia",
+    "area": 747,
+    "idiomas": [
+      "Inglés",
+      "Tongano"
+    ],
+    "moneda": "Paanga tongano",
+    "bandera": "assets/banderas/ton.png"
+  },
+  {
+    "codigo": "TTO",
+    "nombre": "Trinidad y Tobago",
+    "capital": "Puerto España",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 5130,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar de Trinidad y Tobago",
+    "bandera": "assets/banderas/tto.png"
+  },
+  {
+    "codigo": "TUN",
+    "nombre": "Túnez",
+    "capital": "Túnez",
+    "region": "África",
+    "subregion": "África del Norte",
+    "area": 163610,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Dinar tunecino",
+    "bandera": "assets/banderas/tun.png"
+  },
+  {
+    "codigo": "TUR",
+    "nombre": "Turquía",
+    "capital": "Ankara",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 783562,
+    "idiomas": [
+      "Turco"
+    ],
+    "moneda": "Lira turca",
+    "bandera": "assets/banderas/tur.png"
+  },
+  {
+    "codigo": "TUV",
+    "nombre": "Tuvalu",
+    "capital": "Funafuti",
+    "region": "Oceanía",
+    "subregion": "Polinesia",
+    "area": 26,
+    "idiomas": [
+      "Inglés",
+      "Tuvaluano"
+    ],
+    "moneda": "Dólar australiano",
+    "bandera": "assets/banderas/tuv.png"
+  },
+  {
+    "codigo": "TZA",
+    "nombre": "Tanzania",
+    "capital": "Dodoma",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 945087,
+    "idiomas": [
+      "Inglés",
+      "Suajili"
+    ],
+    "moneda": "Chelín tanzano",
+    "bandera": "assets/banderas/tza.png"
+  },
+  {
+    "codigo": "UGA",
+    "nombre": "Uganda",
+    "capital": "Kampala",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 241550,
+    "idiomas": [
+      "Inglés",
+      "Suajili"
+    ],
+    "moneda": "Chelín ugandés",
+    "bandera": "assets/banderas/uga.png"
+  },
+  {
+    "codigo": "UKR",
+    "nombre": "Ucrania",
+    "capital": "Kiev",
+    "region": "Europa",
+    "subregion": "Europa Oriental",
+    "area": 603500,
+    "idiomas": [
+      "Ucraniano"
+    ],
+    "moneda": "Grivna ucraniana",
+    "bandera": "assets/banderas/ukr.png"
+  },
+  {
+    "codigo": "USA",
+    "nombre": "Estados Unidos",
+    "capital": "Washington D.C.",
+    "region": "América",
+    "subregion": "América del Norte",
+    "area": 9372610,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar estadounidense",
+    "bandera": "assets/banderas/usa.png"
+  },
+  {
+    "codigo": "UZB",
+    "nombre": "Uzbekistán",
+    "capital": "Taskent",
+    "region": "Asia",
+    "subregion": "Asia Central",
+    "area": 447400,
+    "idiomas": [
+      "Ruso",
+      "Uzbeko"
+    ],
+    "moneda": "Sum uzbeko",
+    "bandera": "assets/banderas/uzb.png"
+  },
+  {
+    "codigo": "VAT",
+    "nombre": "Ciudad del Vaticano",
+    "capital": "Ciudad del Vaticano",
+    "region": "Europa",
+    "subregion": "Europa del Sur",
+    "area": 0,
+    "idiomas": [
+      "Italiano",
+      "Latín"
+    ],
+    "moneda": "Euro",
+    "bandera": "assets/banderas/vat.png"
+  },
+  {
+    "codigo": "VCT",
+    "nombre": "San Vicente y Granadinas",
+    "capital": "Kingstown",
+    "region": "América",
+    "subregion": "Caribe",
+    "area": 389,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Dólar del Caribe Oriental",
+    "bandera": "assets/banderas/vct.png"
+  },
+  {
+    "codigo": "VEN",
+    "nombre": "Venezuela",
+    "capital": "Caracas",
+    "region": "América",
+    "subregion": "América del Sur",
+    "area": 916445,
+    "idiomas": [
+      "Español"
+    ],
+    "moneda": "Bolívar venezolano",
+    "bandera": "assets/banderas/ven.png"
+  },
+  {
+    "codigo": "VNM",
+    "nombre": "Vietnam",
+    "capital": "Hanoi",
+    "region": "Asia",
+    "subregion": "Sudeste Asiático",
+    "area": 331212,
+    "idiomas": [
+      "Vietnamita"
+    ],
+    "moneda": "Dong vietnamita",
+    "bandera": "assets/banderas/vnm.png"
+  },
+  {
+    "codigo": "VUT",
+    "nombre": "Vanuatu",
+    "capital": "Puerto Vila",
+    "region": "Oceanía",
+    "subregion": "Melanesia",
+    "area": 12189,
+    "idiomas": [
+      "Bislama",
+      "Inglés",
+      "Francés"
+    ],
+    "moneda": "Vatu vanuatense",
+    "bandera": "assets/banderas/vut.png"
+  },
+  {
+    "codigo": "WSM",
+    "nombre": "Samoa",
+    "capital": "Apia",
+    "region": "Oceanía",
+    "subregion": "Polinesia",
+    "area": 2842,
+    "idiomas": [
+      "Inglés",
+      "Samoano"
+    ],
+    "moneda": "Tala samoano",
+    "bandera": "assets/banderas/wsm.png"
+  },
+  {
+    "codigo": "YEM",
+    "nombre": "Yemen",
+    "capital": "Saná",
+    "region": "Asia",
+    "subregion": "Asia Occidental",
+    "area": 527968,
+    "idiomas": [
+      "Árabe"
+    ],
+    "moneda": "Rial yemení",
+    "bandera": "assets/banderas/yem.png"
+  },
+  {
+    "codigo": "ZMB",
+    "nombre": "Zambia",
+    "capital": "Lusaka",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 752612,
+    "idiomas": [
+      "Inglés"
+    ],
+    "moneda": "Kuacha zambiano",
+    "bandera": "assets/banderas/zmb.png"
+  },
+  {
+    "codigo": "ZWE",
+    "nombre": "Zimbabue",
+    "capital": "Harare",
+    "region": "África",
+    "subregion": "África Oriental",
+    "area": 390757,
+    "idiomas": [
+      "Chibarwe",
+      "Inglés",
+      "Kalanga",
+      "Khoisan",
+      "Ndau",
+      "Ndebele septentrional",
+      "Nyanja",
+      "Shona",
+      "Sotho meridional",
+      "Tonga",
+      "Setsuana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Lengua de señas de Zimbabue"
+    ],
+    "moneda": "Pula botsuano",
+    "bandera": "assets/banderas/zwe.png"
   }
 ]

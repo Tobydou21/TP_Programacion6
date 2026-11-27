@@ -1,0 +1,21 @@
+.encabezado-region {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.contador-region {
+    background: var(--ion-color-primary);
+    color: var(--ion-color-primary-contrast);
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+ion-thumbnail img {
+    object-fit: contain;
+}

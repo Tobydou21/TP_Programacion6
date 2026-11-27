@@ -2,8 +2,41 @@
     <ion-toolbar>
         <ion-title>Regiones</ion-title>
     </ion-toolbar>
+    <ion-toolbar>
+        <ion-segment [scrollable]="true" [value]="regionSeleccionada" (ionChange)="cambiarRegion($event)">
+            <ion-segment-button *ngFor="let region of regiones" [value]="region">
+                <ion-label>{{ region }}</ion-label>
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding">
-    <p>Países por región (en construcción)</p>
+<ion-content>
+    <div class="ion-text-center ion-padding" *ngIf="cargando">
+        <ion-spinner></ion-spinner>
+    </div>
+
+    <div class="ion-text-center ion-padding" *ngIf="error">
+        <p>No se pudieron cargar las regiones.</p>
+        <ion-button (click)="cargarPaises()">Reintentar</ion-button>
+    </div>
+
+    <ng-container *ngIf="!cargando && !error">
+        <div class="encabezado-region">
+            <span>{{ regionSeleccionada }}</span>
+            <span class="contador-region">{{ paisesRegion.length }}</span>
+        </div>
+
+        <ion-list>
+            <ion-item *ngFor="let pais of paisesRegion" [routerLink]="['/detalle-pais', pais.codigo]">
+                <ion-thumbnail slot="start">
+                    <img [src]="pais.bandera" [alt]="'Bandera de ' + pais.nombre" />
+                </ion-thumbnail>
+                <ion-label>
+                    <h2>{{ pais.nombre }}</h2>
+                    <p>{{ pais.capital }}</p>
+                </ion-label>
+            </ion-item>
+        </ion-list>
+    </ng-container>
 </ion-content>

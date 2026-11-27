@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, NgZone, OnInit } from '@angular/core';
+import { Pais } from '../../models/pais.model';
+import { PaisesService } from '../../services/paises.service';
 
 @Component({
     selector: 'app-regiones',
@@ -7,7 +9,64 @@ import { Component, OnInit } from '@angular/core';
     standalone: false,
 })
 export class RegionesPage implements OnInit {
-    constructor() { }
+    regiones = ['América', 'Europa', 'Asia', 'África', 'Oceanía'];
+    regionSeleccionada = 'América';
+    paises: Pais[] = [];
+    paisesRegion: Pais[] = [];
+    cargando = true;
+    error = false;
 
-    ngOnInit() { }
+    constructor(
+        private paisesService: PaisesService,
+        private ngZone: NgZone,
+        private cdr: ChangeDetectorRef
+    ) { }
+
+    ngOnInit(): void {
+        this.cargarPaises();
+    }
+
+    cargarPaises(): void {
+        this.cargando = true;
+        this.error = false;
+        this.paisesService.obtenerPaises().subscribe({
+            next: (datos: Pais[]) => {
+                this.ngZone.run(() => {
+                    this.paises = datos.sort((a, b) =>
+                        a.nombre.localeCompare(b.nombre, 'es')
+                    );
+                    this.filtrarPorRegion();
+                    this.cargando = false;
+                    this.cdr.detectChanges();
+                });
+            },
+            error: () => {
+                this.ngZone.run(() => {
+                    this.error = true;
+                    this.cargando = false;
+                    this.cdr.detectChanges();
+                });
+            },
+        });
+    }
+
+    cambiarRegion(event: Event): void {
+        const customEvent = event as CustomEvent<{ value?: string }>;
+        const nuevaRegion = customEvent.detail?.value;
+        if (!nuevaRegion) {
+            return;
+        }
+
+        this.ngZone.run(() => {
+            this.regionSeleccionada = nuevaRegion;
+            this.filtrarPorRegion();
+            this.cdr.detectChanges();
+        });
+    }
+
+    filtrarPorRegion(): void {
+        this.paisesRegion = this.paises.filter(
+            (p) => p.region === this.regionSeleccionada
+        );
+    }
 }
